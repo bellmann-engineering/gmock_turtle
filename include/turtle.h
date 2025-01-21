@@ -9,6 +9,7 @@ public:
     virtual void PenUp() = 0;
     virtual void PenDown() = 0;
     virtual void Forward(int distance) = 0;
+    virtual void Backward(int distance) = 0;
     virtual void Turn(int degrees) = 0;
     virtual std::pair<int, int> GetPosition() const = 0;
 };
